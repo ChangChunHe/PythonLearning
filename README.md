@@ -527,9 +527,9 @@ $Generator~$(生成器)是创建迭代器的简单而又强大的工具. 它们�
 def reverse(data):
 	for index in range(len(data)-1, -1, -1):
 		yield data[index]
-\end{python}
+```
 
-\begin{python}
+```python
 >>> for char in reverse('golf'):
 	... print(char)
 	...
