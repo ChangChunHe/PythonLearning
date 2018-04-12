@@ -243,7 +243,7 @@ class Dog:
 'Buddy
 ```
 
-正如$A~~word~~about~~names~~and~~bbjects$中所讨论的, 当涉及到list, dict等可变对象时, 共享数据可能会带来令人惊讶的影响.  例如, 以下代码中列表$trick$不应该用作类变量, 因为所有Dog实例共享的只有一个list. (实际上就是不同的实例共享这个可变对象$trick$导致$trick$可能不止携带一个实例的信息, 导致数据紊乱.)
+正如$A~word~about~names~and~bbjects$中所讨论的, 当涉及到list, dict等可变对象时, 共享数据可能会带来令人惊讶的影响.  例如, 以下代码中列表$trick$不应该用作类变量, 因为所有Dog实例共享的只有一个list. (实际上就是不同的实例共享这个可变对象$trick$导致$trick$可能不止携带一个实例的信息, 导致数据紊乱.)
 ```python
 class Dog:
 
